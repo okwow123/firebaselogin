@@ -30,6 +30,8 @@ public class NewPostActivity extends BaseActivity {
 
     private EditText mTitleField;
     private EditText mBodyField;
+    private EditText mEtcField;
+
     private FloatingActionButton mSubmitButton;
 
     @Override
@@ -43,6 +45,8 @@ public class NewPostActivity extends BaseActivity {
 
         mTitleField = (EditText) findViewById(R.id.field_title);
         mBodyField = (EditText) findViewById(R.id.field_body);
+        mEtcField= (EditText) findViewById(R.id.field_etc);
+
         mSubmitButton = (FloatingActionButton) findViewById(R.id.fab_submit_post);
 
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +60,7 @@ public class NewPostActivity extends BaseActivity {
     private void submitPost() {
         final String title = mTitleField.getText().toString();
         final String body = mBodyField.getText().toString();
+        final String etc = mEtcField.getText().toString();
 
         // Title is required
         if (TextUtils.isEmpty(title)) {
@@ -68,6 +73,13 @@ public class NewPostActivity extends BaseActivity {
             mBodyField.setError(REQUIRED);
             return;
         }
+
+        // Etc is required
+        if (TextUtils.isEmpty(etc)) {
+            mEtcField.setError(REQUIRED);
+            return;
+        }
+
 
         // Disable button so there are no multi-posts
         setEditingEnabled(false);
@@ -91,7 +103,7 @@ public class NewPostActivity extends BaseActivity {
                                     Toast.LENGTH_SHORT).show();
                         } else {
                             // Write new post
-                            writeNewPost(userId, user.username, title, body);
+                            writeNewPost(userId, user.username, title, body,etc);
                         }
 
                         // Finish this Activity, back to the stream
@@ -114,6 +126,8 @@ public class NewPostActivity extends BaseActivity {
     private void setEditingEnabled(boolean enabled) {
         mTitleField.setEnabled(enabled);
         mBodyField.setEnabled(enabled);
+        mEtcField.setEnabled(enabled);
+
         if (enabled) {
             mSubmitButton.setVisibility(View.VISIBLE);
         } else {
@@ -122,11 +136,11 @@ public class NewPostActivity extends BaseActivity {
     }
 
     // [START write_fan_out]
-    private void writeNewPost(String userId, String username, String title, String body) {
+    private void writeNewPost(String userId, String username, String title, String body,String etc) {
         // Create new post at /user-posts/$userid/$postid and at
         // /posts/$postid simultaneously
         String key = mDatabase.child("posts").push().getKey();
-        Post post = new Post(userId, username, title, body);
+        Post post = new Post(userId, username, title, body,etc);
         Map<String, Object> postValues = post.toMap();
 
         Map<String, Object> childUpdates = new HashMap<>();

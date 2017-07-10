@@ -4,6 +4,9 @@ import android.app.ProgressDialog;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
+
 public class BaseActivity extends AppCompatActivity {
 
     @VisibleForTesting
@@ -25,10 +28,16 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
+
     @Override
     public void onStop() {
         super.onStop();
         hideProgressDialog();
     }
+
+    public String getUid() {
+        return FirebaseAuth.getInstance().getCurrentUser().getUid();
+    }
+
 
 }

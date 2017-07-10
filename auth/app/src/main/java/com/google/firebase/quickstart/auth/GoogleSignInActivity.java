@@ -88,6 +88,7 @@ public class GoogleSignInActivity extends BaseActivity implements
         // [START initialize_auth]
         mAuth = FirebaseAuth.getInstance();
         // [END initialize_auth]
+
     }
 
     // [START on_start_check_user]
@@ -139,6 +140,7 @@ public class GoogleSignInActivity extends BaseActivity implements
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
+
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
@@ -190,15 +192,26 @@ public class GoogleSignInActivity extends BaseActivity implements
                 });
     }
 
+    //button toggle
     private void updateUI(FirebaseUser user) {
         hideProgressDialog();
+        //현재 유저가 존재한다면, 로그아웃버튼을 보여주고 로그인버튼을 보여주지 마라
         if (user != null) {
-            mStatusTextView.setText(getString(R.string.google_status_fmt, user.getEmail()));
-            mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
+            //mStatusTextView.setText(getString(R.string.google_status_fmt, user.getEmail()));
+            //mDetailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
 
-            findViewById(R.id.sign_in_button).setVisibility(View.GONE);
-            findViewById(R.id.sign_out_and_disconnect).setVisibility(View.VISIBLE);
+            //findViewById(R.id.sign_in_button).setVisibility(View.GONE);
+            //findViewById(R.id.sign_out_and_disconnect).setVisibility(View.VISIBLE);
+            //Intent intent = new Intent(this,RouteActivity.class);
+            Intent intent = new Intent(this,MainActivity.class);
+
+            intent.putExtra("id",user.getEmail());
+            startActivity(intent);
+            finish(); // 전꺼 Activity 종료
+
+
         } else {
+        //현재 유저가 존재하지 않늗다면, 로그인 버튼을 보여주고, 로그아웃 버튼을 보여주지 마라.
             mStatusTextView.setText(R.string.signed_out);
             mDetailTextView.setText(null);
 
