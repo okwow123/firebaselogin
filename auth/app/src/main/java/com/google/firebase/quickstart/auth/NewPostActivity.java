@@ -1,11 +1,15 @@
 package com.google.firebase.quickstart.auth;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -18,6 +22,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.quickstart.auth.models.Post;
 import com.google.firebase.quickstart.auth.models.User;
 
+import android.net.Uri;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,21 +39,24 @@ public class NewPostActivity extends BaseActivity {
     private EditText mBodyField;
     private EditText mEtcField;
 
-
-
     // [START declare_auth]
     private FirebaseAuth mAuth = FirebaseAuth.getInstance();
     // [END declare_auth]
-
     private FirebaseUser currentUser = mAuth.getCurrentUser();
-
-
     private FloatingActionButton mSubmitButton;
+
+    //[Start] NewPostActivity
+    private Button cameraButton;
+    private ImageView cameraImage;
+    //[End] NewPostActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_post);
+
+        cameraButton = (Button)findViewById(R.id.cameraButton);
+        cameraImage = (ImageView)findViewById(R.id.cameraImage);
 
         // [START initialize_database_ref]
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -66,6 +74,16 @@ public class NewPostActivity extends BaseActivity {
                 submitPost();
             }
         });
+
+        cameraButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(intent,1);
+
+            }
+        });
+
     }
     /*
     // [START on_start_check_user]
@@ -176,4 +194,10 @@ public class NewPostActivity extends BaseActivity {
         mDatabase.updateChildren(childUpdates);
     }
     // [END write_fan_out]
+
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        cameraImage.setImageURI(data.getData());
+    }
+
 }
