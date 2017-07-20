@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/incremental/mergeMinSdkIcsDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "/root/.android/build-cache/ba1f198da97efd42d608af4d6b45659b5bc7d2e7/output/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            }
+        ]
+    }
+]

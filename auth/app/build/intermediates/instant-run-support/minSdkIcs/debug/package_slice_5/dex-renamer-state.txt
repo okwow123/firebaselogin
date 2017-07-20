@@ -1,0 +1,4 @@
+#Mon Jul 10 21:26:44 KST 2017
+base.0=/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/5/slice_5
+renamed.0=classes.dex
+file.0=/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/5/slice_5/classes.dex

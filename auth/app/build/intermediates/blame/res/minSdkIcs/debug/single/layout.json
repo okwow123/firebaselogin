@@ -1,0 +1,374 @@
+[
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_screen_simple.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__activity_phone_number.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__activity_phone_number.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_screen_toolbar.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/include_post_text.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/include_post_text.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_custom.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_custom.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_layout_tab_text.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/include_post_author.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/include_post_author.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/intro_activity.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/intro_activity.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__activity_confirmation.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__activity_confirmation.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_action.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__action_bar.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__action_bar.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_new_post.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_new_post.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__video_control.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__video_control.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_part_time.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__activity_pin_code.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__activity_pin_code.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_text_input_password_icon.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_lines_media.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__activity_failure.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__activity_failure.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_media_custom.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_route.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_route.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_item_header.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__tweet_compact.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__tweet_compact.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/select_dialog_item_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_emailpassword.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_emailpassword.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_menu_item_action_area.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__player_activity.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__player_activity.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_mode_bar.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_media.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__activity_composer.xml",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/layout/tw__activity_composer.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__activity_contacts.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__activity_contacts.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__state_button.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__state_button.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__gallery_activity.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__gallery_activity.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/dgts__country_row.xml",
+        "source": "/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/res/layout/dgts__country_row.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/fragment_all_posts.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/fragment_all_posts.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_layout_tab_icon.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_facebook.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_facebook.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_anonymous_auth.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_anonymous_auth.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_menu_item.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_google.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_google.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__app_card.xml",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/layout/tw__app_card.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_item.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_screen_content_include.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__tweet.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__tweet.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_layout_snackbar.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/item_post.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/item_post.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_phone_auth.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_phone_auth.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_menu_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_search_view.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__composer_view.xml",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/layout/tw__composer_view.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_main.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_chooser.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_chooser.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_navigation_item_separator.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__activity_share_email.xml",
+        "source": "/root/.android/build-cache/ba1f198da97efd42d608af4d6b45659b5bc7d2e7/output/res/layout/tw__activity_share_email.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/item_comment.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/item_comment.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_firebase_ui.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_firebase_ui.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__media_badge.xml",
+        "source": "/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/res/layout/tw__media_badge.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_twitter.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/layout/activity_twitter.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/root/.android/build-cache/8f51bc89ba8ec23dc413cf946d22efc6c6f5934d/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/tw__activity_oauth.xml",
+        "source": "/root/.android/build-cache/ba1f198da97efd42d608af4d6b45659b5bc7d2e7/output/res/layout/tw__activity_oauth.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/abc_select_dialog_material.xml",
+        "source": "/root/.android/build-cache/2079a389f6b7d3513126511ff6ff277b910af900/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_sign_in.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/layout/activity_post_detail.xml",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/res/layout/activity_post_detail.xml"
+    }
+]

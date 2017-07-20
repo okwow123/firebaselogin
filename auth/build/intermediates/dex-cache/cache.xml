@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/picasso-2.5.2_f07471cc8daabba9b33b6c2492a169834e3c6749/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/7a768cbc43331338a526f529177f9e6682d02019/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e25d39642cf82ff86e13390e7854ef135df232ea">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_288ad2a922f8ef4f4f5ed8e844d660281d63780d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0ea42614d0d3d5e9f507cb2f432ae821307cd0dc">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_ea8ff54d5bbe15a7fcd7dc08cd00bd28d8f0a800/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/dda70fe5d4670a74f30d94f52adb378a82470901/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2b81327f3afb5c0c84ee6f50df6f750737a44653">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_e809338b362f1932327810e8d988fcbe74ad6ece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/c1eac4d067799c3c4800153cc8bfb3403335f7e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3013ffee567202ddab82286ac45b28fcb1e7926a">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_6011eb5c6a98fbfb3857b87fc0ce9b4943e63621/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/ba1f198da97efd42d608af4d6b45659b5bc7d2e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1360908bc3e1751f5e2248e64aedbe4b5944b702">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_6f1c00f837e4e4b0dd89a63281957457949720cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ilovejsp/android/firebase/auth/app/build/intermediates/incremental-classes/minSdkIcs/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf05fd70146b9a205d3e5babd97ba2aa4a3c6e79">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10000/instant-run-bootstrap_56e996c8174ea49156c124462b9ae01f62bd52d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.13.0/78415b95ae3184c5926d593feab64bfc0b73b2dd/twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/twitter-text-1.13.0_38a617e1df4bc30cb7c35ebe8cb69a91ef06b20f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ilovejsp/android/firebase/auth/app/build/intermediates/incremental-runtime-classes/minSdkIcs/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10000/instant-run_06ea0ababa0d44addba4e4dfbc7958c7421273d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/1857a91cdb0ac02e7d9ddc702a0a8f094141ddcb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_6def28cccbcd6c7534e6578a221c3457b7626c2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/gson-2.3_827b03ac466eea69671b5d185ef3cd2b47aa3b11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/9610ae0b2321502d696e8c53840cc2ed0928cf7e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d94940ddde71cc57402c78b7d8c335d61958f486">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_1c92fce6db34e2094042ac5ba04694e453d26f90/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.8.0/a517f29ed06be2b2879524fcd94b6e9b36e2e0b5/retrofit-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a517f29ed06be2b2879524fcd94b6e9b36e2e0b5">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/retrofit-1.8.0_f2c3e20619585388417f83d6e1c9c29b9af888f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/.android/build-cache/78524df36347f8dd4c455e3879efbd3b469aef05/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d903060c54d0109fc4efa404a62fac2158d6633">
+        <dex dex="/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10/classes_e28aee0ca603c155463223d70f1b6cd661708b5b/classes.dex" />
+    </item>
+
+</items>

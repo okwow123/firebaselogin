@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/firebase_lockup_400.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/firebase_lockup_400.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_toggle_star_outline_24.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_toggle_star_outline_24.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_person_white.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_person_white.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/tw__composer_logo_white.png",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/drawable-xxhdpi/tw__composer_logo_white.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/intro.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/intro.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_action_account_circle_40.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_action_account_circle_40.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/tw__composer_close.png",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/drawable-xxhdpi/tw__composer_close.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/tw__composer_logo_blue.png",
+        "source": "/root/.android/build-cache/fce2348f577850ffdc5839d59dfe8675a8175526/output/res/drawable-xxhdpi/tw__composer_logo_blue.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_toggle_star_24.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_toggle_star_24.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_image_edit.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_image_edit.png"
+    },
+    {
+        "merged": "/home/ilovejsp/android/firebase/auth/app/build/intermediates/res/merged/minSdkIcs/debug/drawable-xxhdpi/ic_navigation_check_24.png",
+        "source": "/home/ilovejsp/android/firebase/auth/app/src/main/res/drawable-xxhdpi/ic_navigation_check_24.png"
+    }
+]

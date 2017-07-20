@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/ilovejsp/android/firebase/auth/app/src/main/jniLibs"/></dataSet><dataSet config="minSdkIcs"><source path="/home/ilovejsp/android/firebase/auth/app/src/minSdkIcs/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/ilovejsp/android/firebase/auth/app/src/debug/jniLibs"/></dataSet><dataSet config="minSdkIcsDebug"><source path="/home/ilovejsp/android/firebase/auth/app/src/minSdkIcsDebug/jniLibs"/></dataSet></merger>
