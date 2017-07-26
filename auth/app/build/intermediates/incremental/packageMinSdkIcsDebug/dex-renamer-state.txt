@@ -1,4 +1,4 @@
-#Thu Jul 20 04:40:24 KST 2017
+#Sun Jul 23 23:01:19 KST 2017
 base.0=/home/ilovejsp/android/firebase/auth/app/build/intermediates/transforms/dex/minSdkIcs/debug/folders/1000/10000/instant-run-bootstrap_56e996c8174ea49156c124462b9ae01f62bd52d4
 renamed.1=classes.dex
 renamed.0=classes2.dex

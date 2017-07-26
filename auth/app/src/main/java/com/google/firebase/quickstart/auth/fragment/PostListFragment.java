@@ -105,6 +105,9 @@ public abstract class PostListFragment extends Fragment {
                         onStarClicked(userPostRef);
                     }
                 });
+
+
+
             }
         };
         mRecycler.setAdapter(mAdapter);

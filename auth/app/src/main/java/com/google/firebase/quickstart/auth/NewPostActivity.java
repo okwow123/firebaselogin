@@ -217,9 +217,27 @@ public class NewPostActivity extends BaseActivity {
         childUpdates.put("/user-posts/" + userId + "/" + key, postValues);
 
         mDatabase.updateChildren(childUpdates);
+
     }
     // [END write_fan_out]
 
+
+    // [START write_fan_out]
+    private void writeNewPost(String userId, String username, String title, String body,String etc,String imageURL) {
+        // Create new post at /user-posts/$userid/$postid and at
+        // /posts/$postid simultaneously
+        String key = mDatabase.child("posts").push().getKey();
+        Post post = new Post(userId, username, title, body,etc,imageURL);
+        Map<String, Object> postValues = post.toMap();
+
+        Map<String, Object> childUpdates = new HashMap<>();
+        childUpdates.put("/posts/" + key, postValues);
+        childUpdates.put("/user-posts/" + userId + "/" + key, postValues);
+
+        mDatabase.updateChildren(childUpdates);
+
+    }
+    // [END write_fan_out]
 
 
     @Override
@@ -250,8 +268,10 @@ public class NewPostActivity extends BaseActivity {
                                                         .getReference(currentUser.getUid())
                                                         .child(key)
                                                         .child(uri.getLastPathSegment());
+                                        Log.e(TAG, "putImageInStorage before");
 
                                         putImageInStorage(storageReference, uri, key);
+
 
                                     } else {
                                         Log.w(TAG, "Unable to write message to database.",
@@ -297,25 +317,34 @@ public class NewPostActivity extends BaseActivity {
 
                     @Override
                     public void onComplete(@NonNull Task<UploadTask.TaskSnapshot> task) {
-
                         //mDatabase.child(MESSAGES_CHILD).child(key)
                         //        .setValue(task.getResult().getDownloadUrl().toString());
 
+                        //Post post =new Post(null, null, null,null,null, task.getResult().getDownloadUrl().toString());
+
+                        String A=currentUser.getUid();
+                        String B=currentUser.getEmail();
+                        String C=mTitleField.getText().toString();
+                        String D=mBodyField.getText().toString();
+                        String E=mEtcField.getText().toString();
+                        String F=task.getResult().getDownloadUrl().toString();
+                        writeNewPost(currentUser.getUid(),currentUser.getEmail() ,mTitleField.getText().toString(),
+                                mBodyField.getText().toString(),mEtcField.getText().toString(),task.getResult().getDownloadUrl().toString());
+
+                        //mDatabase.child(MESSAGES_CHILD).child(key).setValue(task.getResult().getDownloadUrl().toString());
+
+                        //mDatabase.child(MESSAGES_CHILD).child(key).setValue(post);
+
+                        /*
                         if (task.isSuccessful()) {
                             Log.w(TAG,"image success");
 
-                        /*
-                            FriendlyMessage friendlyMessage =
-                                    new FriendlyMessage(null, mUsername, mPhotoUrl,
-                                            task.getResult().getDownloadUrl()
-                                                    .toString());
-                        */
-                            mDatabase.child(MESSAGES_CHILD).child(key)
-                                    .setValue(task.getResult().getDownloadUrl().toString());
+
                         } else {
                             Log.w(TAG, "Image upload task was not successful.",
                                     task.getException());
                         }
+                        */
 
                     }
                 });
