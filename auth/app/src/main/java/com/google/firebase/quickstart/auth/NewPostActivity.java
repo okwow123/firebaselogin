@@ -226,13 +226,16 @@ public class NewPostActivity extends BaseActivity {
     private void writeNewPost(String userId, String username, String title, String body,String etc,String imageURL) {
         // Create new post at /user-posts/$userid/$postid and at
         // /posts/$postid simultaneously
-        String key = mDatabase.child("posts").push().getKey();
+        String key = mDatabase.child("posts-image").push().getKey();
         Post post = new Post(userId, username, title, body,etc,imageURL);
-        Map<String, Object> postValues = post.toMap();
+        //Map<String, Object> postValues = post.toMap();
+        Map<String, Object> postValues = post.toMapImage();
 
         Map<String, Object> childUpdates = new HashMap<>();
-        childUpdates.put("/posts/" + key, postValues);
-        childUpdates.put("/user-posts/" + userId + "/" + key, postValues);
+        childUpdates.put("/posts-image/" + key, postValues);
+
+        //childUpdates.put("/posts/" + key, postValues);
+        //childUpdates.put("/user-posts/" + userId + "/" + key, postValues);
 
         mDatabase.updateChildren(childUpdates);
 
@@ -248,14 +251,11 @@ public class NewPostActivity extends BaseActivity {
 
         if (requestCode == REQUEST_IMAGE) {
             if (resultCode == RESULT_OK) {
+                /*
                 if (data != null) {
                     final Uri uri = data.getData();
                     Log.d(TAG, "Uri: " + uri.toString());
 
-                    /*
-                    FriendlyMessage tempMessage = new FriendlyMessage(null, mUsername, mPhotoUrl,
-                            LOADING_IMAGE_URL);
-                    */
                     mDatabase.child(MESSAGES_CHILD).push()
                             .setValue("tempMessage", new DatabaseReference.CompletionListener() {
                                 @Override
@@ -281,27 +281,45 @@ public class NewPostActivity extends BaseActivity {
                             });
 
                 }
-            }
-        } /*else if (requestCode == REQUEST_INVITE) {
-            if (resultCode == RESULT_OK) {
-                // Use Firebase Measurement to log that invitation was sent.
-                Bundle payload = new Bundle();
-                payload.putString(FirebaseAnalytics.Param.VALUE, "inv_sent");
+                */
+                if (data != null) {
+                    final Uri uri = data.getData();
+                    Log.d(TAG, "Uri: " + uri.toString());
 
-                // Check how many invitations were sent and log.
-                String[] ids = AppInviteInvitation.getInvitationIds(resultCode, data);
-                Log.d(TAG, "Invitations sent: " + ids.length);
-            } else {
-                // Use Firebase Measurement to log that invitation was not sent
-                Bundle payload = new Bundle();
-                payload.putString(FirebaseAnalytics.Param.VALUE, "inv_not_sent");
-                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SHARE, payload);
+                    /*
+                    FriendlyMessage tempMessage = new FriendlyMessage(null, mUsername, mPhotoUrl,
+                            LOADING_IMAGE_URL);
+                    */
 
-                // Sending failed or it was canceled, show failure message to the user
-                Log.d(TAG, "Failed to send invitation.");
+                    mDatabase.child("posts-image").push()
+                            .setValue("tempMessage", new DatabaseReference.CompletionListener() {
+                                @Override
+                                public void onComplete(DatabaseError databaseError,
+                                                       DatabaseReference databaseReference) {
+                                    if (databaseError == null) {
+                                        String key = databaseReference.getKey();
+                                        StorageReference storageReference =
+                                                FirebaseStorage.getInstance()
+                                                        .getReference(currentUser.getUid())
+                                                        .child(key)
+                                                        .child(uri.getLastPathSegment());
+                                        Log.e(TAG, "putImageInStorage before");
+
+                                        putImageInStorage(storageReference, uri, key);
+
+
+                                    } else {
+                                        Log.w(TAG, "Unable to write message to database.",
+                                                databaseError.toException());
+                                    }
+                                }
+                            });
+
+
+                }
+
             }
         }
-        */
     }
 
 
@@ -328,10 +346,12 @@ public class NewPostActivity extends BaseActivity {
                         String D=mBodyField.getText().toString();
                         String E=mEtcField.getText().toString();
                         String F=task.getResult().getDownloadUrl().toString();
-                        writeNewPost(currentUser.getUid(),currentUser.getEmail() ,mTitleField.getText().toString(),
-                                mBodyField.getText().toString(),mEtcField.getText().toString(),task.getResult().getDownloadUrl().toString());
+                        //writeNewPost(currentUser.getUid(),currentUser.getEmail() ,mTitleField.getText().toString(),
+                        //        mBodyField.getText().toString(),mEtcField.getText().toString(),task.getResult().getDownloadUrl().toString());
 
-                        //mDatabase.child(MESSAGES_CHILD).child(key).setValue(task.getResult().getDownloadUrl().toString());
+                        //여기서 막힘.
+                        mDatabase.child("posts-image").child(key).setValue(task.getResult().getDownloadUrl().toString());
+                        //mDatabase.child("posts-image").child(key).setValue("AAA");
 
                         //mDatabase.child(MESSAGES_CHILD).child(key).setValue(post);
 

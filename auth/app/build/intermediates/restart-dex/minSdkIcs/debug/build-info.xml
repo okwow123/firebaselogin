@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1501079224779"
+    timestamp="1501375822139"
     token="-1988278135116328494"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="885" />
+        duration="2373" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="106" />
+        duration="125" />
     <task
         name="verifier"
-        duration="48" />
+        duration="28" />
 
     <artifact
         location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_7.apk"
@@ -32,14 +32,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1501073478282"
+        timestamp="1501373604763"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/ilovejsp/android/firebase/auth/app/build/outputs/apk/app-minSdkIcs-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -65,23 +59,21 @@
             location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1501077435590"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_6.apk"
-            type="SPLIT" />
+            location="/home/ilovejsp/android/firebase/auth/app/build/outputs/apk/app-minSdkIcs-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501077536506"
+        timestamp="1501375601263"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/ilovejsp/android/firebase/auth/app/build/outputs/apk/app-minSdkIcs-debug.apk"
@@ -89,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501079224779"
+        timestamp="1501375822139"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/ilovejsp/android/firebase/auth/app/build/intermediates/split-apk/minSdkIcs/debug/slices/slice_7.apk"

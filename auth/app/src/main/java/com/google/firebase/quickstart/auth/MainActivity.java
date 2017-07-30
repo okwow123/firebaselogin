@@ -27,6 +27,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.quickstart.auth.fragment.MyImageFragment;
 import com.google.firebase.quickstart.auth.fragment.MyPostsFragment;
 import com.google.firebase.quickstart.auth.fragment.MyTopPostsFragment;
 import com.google.firebase.quickstart.auth.fragment.RecentPostsFragment;
@@ -51,11 +52,14 @@ public class MainActivity extends BaseActivity {
                     new RecentPostsFragment(),
                     new MyPostsFragment(),
                     new MyTopPostsFragment(),
+                    new MyImageFragment(),
+
             };
             private final String[] mFragmentNames = new String[] {
                     getString(R.string.heading_recent),
                     getString(R.string.heading_my_posts),
-                    getString(R.string.heading_my_top_posts)
+                    getString(R.string.heading_my_top_posts),
+                    "My Image Posts"
             };
             @Override
             public Fragment getItem(int position) {
