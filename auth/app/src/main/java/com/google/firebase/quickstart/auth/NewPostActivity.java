@@ -110,6 +110,8 @@ public class NewPostActivity extends BaseActivity {
         });
 
 
+
+
     }
     /*
     // [START on_start_check_user]
@@ -346,11 +348,13 @@ public class NewPostActivity extends BaseActivity {
                         String D=mBodyField.getText().toString();
                         String E=mEtcField.getText().toString();
                         String F=task.getResult().getDownloadUrl().toString();
-                        //writeNewPost(currentUser.getUid(),currentUser.getEmail() ,mTitleField.getText().toString(),
-                        //        mBodyField.getText().toString(),mEtcField.getText().toString(),task.getResult().getDownloadUrl().toString());
+                        writeNewPost(currentUser.getUid(),currentUser.getEmail() ,mTitleField.getText().toString(),
+                                mBodyField.getText().toString(),mEtcField.getText().toString(),task.getResult().getDownloadUrl().toString());
 
                         //여기서 막힘.
-                        mDatabase.child("posts-image").child(key).setValue(task.getResult().getDownloadUrl().toString());
+                        //mDatabase.child("posts-image").child(key).setValue(task.getResult().getDownloadUrl().toString());
+                        //mDatabase.child("posts-image").child(key).setValue(F);
+
                         //mDatabase.child("posts-image").child(key).setValue("AAA");
 
                         //mDatabase.child(MESSAGES_CHILD).child(key).setValue(post);

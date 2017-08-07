@@ -10,6 +10,7 @@ public class MyImageFragment extends PostListFragment {
     @Override
     public Query getQuery(DatabaseReference databaseReference) {
         // All my posts
+        Query query=databaseReference.child("posts-image").child(getUid());
         return databaseReference.child("posts-image")
                 .child(getUid());
     }
